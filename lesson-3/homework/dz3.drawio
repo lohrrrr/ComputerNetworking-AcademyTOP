@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="n3Ir1n0xKYbU4ax0UCW-">
+    <mxGraphModel dx="1036" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZpKgLGv067Iz3-MNCx9o-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="150" width="320" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZpKgLGv067Iz3-MNCx9o-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="MAC адрес" vertex="1">
+          <mxGeometry height="30" width="320" x="40" y="11" as="geometry" />
+        </mxCell>
+        <mxCell id="ZpKgLGv067Iz3-MNCx9o-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Vendor ID" vertex="1">
+          <mxGeometry height="30" width="140" x="60" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZpKgLGv067Iz3-MNCx9o-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NIC" vertex="1">
+          <mxGeometry height="30" width="140" x="200" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZpKgLGv067Iz3-MNCx9o-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="24 бита" vertex="1">
+          <mxGeometry height="30" width="140" x="60" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZpKgLGv067Iz3-MNCx9o-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="24 бита" vertex="1">
+          <mxGeometry height="30" width="140" x="200" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZpKgLGv067Iz3-MNCx9o-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="A2:C6:D3" vertex="1">
+          <mxGeometry height="30" width="140" x="60" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZpKgLGv067Iz3-MNCx9o-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="6F:34:A3" vertex="1">
+          <mxGeometry height="30" width="140" x="200" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZpKgLGv067Iz3-MNCx9o-51" parent="1" style="shape=rect;rounded=1;whiteSpace=wrap;html=1;fillColor=#0284c7;strokeColor=#0369a1;fontColor=#ffffff;fontSize=14;fontStyle=1;" value="&lt;b&gt;Коммутатор (Switch)&lt;/b&gt;&lt;br&gt;&lt;i&gt;L2-уровень&lt;/i&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="620" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZpKgLGv067Iz3-MNCx9o-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#64748b;strokeWidth=1.5;fontColor=#0f172a;fontSize=11;" value="&lt;b&gt;Компьютер 1 (PC-1)&lt;/b&gt;&lt;br&gt;IP: 192.168.1.10&lt;br&gt;MAC: 00:1A:2B:AA:01:01" vertex="1">
+          <mxGeometry height="65" width="160" x="410" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ZpKgLGv067Iz3-MNCx9o-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#64748b;strokeWidth=1.5;fontColor=#0f172a;fontSize=11;" value="&lt;b&gt;Компьютер 2 (PC-2)&lt;/b&gt;&lt;br&gt;IP: 192.168.1.20&lt;br&gt;MAC: 00:1A:2B:BB:02:02" vertex="1">
+          <mxGeometry height="65" width="160" x="620" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ZpKgLGv067Iz3-MNCx9o-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#64748b;strokeWidth=1.5;fontColor=#0f172a;fontSize=11;" value="&lt;b&gt;Компьютер 3 (PC-3)&lt;/b&gt;&lt;br&gt;IP: 192.168.1.30&lt;br&gt;MAC: 00:1A:2B:CC:03:03" vertex="1">
+          <mxGeometry height="65" width="160" x="850" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ZpKgLGv067Iz3-MNCx9o-55" edge="1" parent="1" source="ZpKgLGv067Iz3-MNCx9o-52" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#334155;labelBackgroundColor=#ffffff;fontSize=11;fontColor=#475569;" target="ZpKgLGv067Iz3-MNCx9o-51" value="Порт 1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZpKgLGv067Iz3-MNCx9o-56" edge="1" parent="1" source="ZpKgLGv067Iz3-MNCx9o-53" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#334155;labelBackgroundColor=#ffffff;fontSize=11;fontColor=#475569;" target="ZpKgLGv067Iz3-MNCx9o-51" value="Порт 2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZpKgLGv067Iz3-MNCx9o-57" edge="1" parent="1" source="ZpKgLGv067Iz3-MNCx9o-54" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#334155;labelBackgroundColor=#ffffff;fontSize=11;fontColor=#475569;" target="ZpKgLGv067Iz3-MNCx9o-51" value="Порт 3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZpKgLGv067Iz3-MNCx9o-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef2f2;strokeColor=#ef4444;strokeWidth=1.5;fontColor=#991b1b;align=left;verticalAlign=top;spacing=12;fontSize=12;" value="&lt;div class=&quot;markdown markdown-main-panel md-content enable-luminous-fast-follows enable-updated-hr-color stronger tutor-markdown-rendering&quot; style=&quot;--animation-duration: 400ms; --fade-animation-function: ease-out; font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot; id=&quot;model-response-message-contentr_183c223b5f4d891e&quot; aria-busy=&quot;false&quot; aria-live=&quot;polite&quot; dir=&quot;ltr&quot;&gt;&lt;div style=&quot;font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;b style=&quot;font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;Проблема: дублирование MAC-адресов&lt;/b&gt;&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;b style=&quot;font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;Причина&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;Два узла делят один физический адрес. Такое случается, если админ вручную прописал чужой MAC в свойствах адаптера или развернул клон виртуалки(у меня такое было кстати) без перегенерации сетевых параметров.&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;Коммутатор сходит с ума. Он непрерывно переписывает CAM-таблицу, метаясь между двумя портами (эффект MAC Flapping). Итог — хаотичные обрывы связи и потеря пакетов на обоих хостах.&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;b style=&quot;font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;Решение&lt;/b&gt;&lt;/div&gt;&lt;ol start=&quot;1&quot; style=&quot;padding-inline-start: 32px; font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;li style=&quot;font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;div style=&quot;font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;Открыть логи коммутатора и найти порты, между которыми прыгает проблемный адрес.&lt;/div&gt;&lt;/li&gt;&lt;li style=&quot;font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;div style=&quot;font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;Отключить дублирующий узел от сети.&lt;/div&gt;&lt;/li&gt;&lt;li style=&quot;font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;div style=&quot;font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;Вернуть уникальность: сбросить MAC на заводской в свойствах сетевой карты или перегенерировать его в настройках гипервизора.&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="260" width="580" x="40" y="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
